@@ -1,0 +1,14 @@
+import math
+
+# Step 1: Ask the user for a number
+num = float(input("Enter a number: "))
+
+# Step 2: Perform calculations using math module
+sqrt_value = math.sqrt(num)
+log_value = math.log(num)         # Natural logarithm (base e)
+sine_value = math.sin(num)        # Sine of the number in radians
+
+# Step 3: Print the results
+print("Square root:", sqrt_value)
+print("Natural logarithm (ln):", log_value)
+print("Sine (in radians):", sine_value)
